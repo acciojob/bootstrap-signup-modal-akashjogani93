@@ -8,6 +8,35 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-	
+		<div class="container">
+			<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter">
+			  Sign Up
+			</button>
+			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalCenterTitle">Create Account</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+						<label for="email">Email Address</label>
+						<input type="email" id="email" class="form-control" placeholder="Enter email">
+						  <p>Your information is safe with us</p>
+						  <label for="password">Password</label>
+							<input type="password" id="password" class="form-control" placeholder="Password">
+						  <label for="confirm-password">Confirm Password</label>
+							<input type="text" id="confirm-password" class="form-control" placeholder="Confirm Password">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-success">Submit</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
 	</body>
 </html>
